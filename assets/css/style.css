@@ -1,0 +1,116 @@
+/* Formateo de pagina */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: black;
+}
+
+h1,h2,h3,p{
+  color: white;
+}
+/* Declaro mis fuentes para usarlas */
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* Creo variaciones de estas fuentes */
+.ralewayLight {
+  font-weight: 300;
+}
+.ralewayMedium {  
+  font-weight: 500;
+}
+
+
+header{
+  font-size: 50px;
+  text-align: center;
+}
+
+.imagenPrincipal{
+  display: flex;
+}
+.imagenPrincipal img{
+  width: 100%;
+}
+
+.descripcion{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 45px 0px;
+}
+
+.contenedorTexto{
+ width: 40%;
+}
+
+.contenedorTexto p{
+  margin-bottom: 20px;
+}
+
+.descripcion img{
+width: 30%;
+}
+
+.seccionCaracteristicas{
+  background-color: #1E1A13;
+  padding: 75px 0px;
+ }
+
+ .tituloSecundario{
+  font-size: 40px;
+  text-align: center;
+ }
+
+.contenedorCajaIcono{
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  margin-top: 50px;
+  }
+
+  .cajaIcono{
+   color: white;
+   text-align: center;
+  }
+  
+  .cajaIcono i{
+    font-size: 50px;
+  }
+
+  .cajaIcono p{
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  .seccionFotos{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 75px 0px;
+  }
+  .seccionFotos img{
+    width: 320px;
+  }
+
+  footer{
+    padding: 40px 0;
+    background-color: #1E1A13;
+  }
+
+  footer p{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  footer p a{
+    color: white;
+  }
